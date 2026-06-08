@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const API = process.env.REACT_APP_API_URL || "http://BACKEND_EXTERNAL_IP";
+const API = process.env.REACT_APP_API_URL || "http://52.226.194.79:5000";
 
 export default function App() {
   const [menu, setMenu] = useState([]);
